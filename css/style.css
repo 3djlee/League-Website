@@ -1,0 +1,126 @@
+html {
+    font-size: 22px;
+    color: #fff;
+    background-image: url('../images/background.avif');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed;
+}
+
+/* added because of default margin / padding issue */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background-handgaming {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.background-handgaming h1 { 
+    color: #fff;
+    text-align: center;
+    font-family: 'Games', sans-serif;
+    z-index: 1;
+}
+
+.vid-container {
+    position: absolute;
+}
+
+.league-introduction {
+    margin: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.champions {
+    border: solid;
+    border-radius: 20px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+.champion-information {
+    display: flex;
+    position: relative;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.vid-champions {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.champInfo {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.reasons {
+    color: rgb(249, 249, 249);
+    font-family: 'Games', sans-serif;
+}
+#Aphelios {
+    background-image: url('../images/aphelios.gif');
+}
+
+#Yone {
+    background-image: url('../images/yone.gif');
+}
+
+#Azir {
+    background-image: url('../images/azir.gif');
+    
+}
+
+#Draven {
+    background-image: url('../images/draven.gif');
+}
+
+#Leesin {
+    background-image: url('../images/leesin.gif');
+}
+
+.champ {
+    background-size: cover;
+    border: 2px solid #ccc;
+    padding: 1rem;
+    margin: auto; 
+    font-size: 36px;
+    color: #fff;
+    font-family: 'Games', sans-serif;
+    width: 300px;
+    text-align: center;
+}
+
+
+img {
+    width: 720px;
+    object-fit: cover;  
+    display: block;
+}
+
+.about {
+    border: solid;
+    border-radius: 20px;
+    text-align: center;
+    margin: 80px;
+}
+
+address {
+    text-align: center;
+}
